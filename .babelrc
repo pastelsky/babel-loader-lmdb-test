@@ -1,0 +1,16 @@
+{
+  "plugins": ["@babel/syntax-dynamic-import"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "12.22.1"
+        },
+        "modules": false
+      }
+    ],
+    "@babel/preset-flow", "@babel/preset-typescript",
+
+  ]
+}
